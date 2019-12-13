@@ -1,0 +1,239 @@
+body{
+    color:black;
+}
+
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 2;
+    --web-view-id: Web_1920___2;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920___2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gamer_Pro {
+    position: absolute;
+    left: 852px;
+    top: 44px;
+    overflow: visible;
+    width: 217px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    height: 56px;
+    left: 1716px;
+    top: 44px;
+}
+#Username {
+    position: absolute;
+    left: 1793px;
+    top: 64px;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+.Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 462px;
+    height: 454px;
+    left: 729px;
+    top: 165px;
+}
+#Welcome_to_Username_s_Profile {
+    position: absolute;
+    left: 630px;
+    top: 644px;
+    overflow: visible;
+    width: 662px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 54px;
+    left: 852px;
+    top: 707px;
+}
+#follow {
+    position: absolute;
+    left: 892px;
+    top: 715px;
+    overflow: visible;
+    width: 138px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#Username_s_Public_Playlists {
+    position: absolute;
+    left: 652px;
+    top: 865px;
+    overflow: visible;
+    width: 617px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#ID173f4a3599db49e3612881c8a6df {
+    position: absolute;
+    width: 777px;
+    height: 259px;
+    left: 168px;
+    top: 1015px;
+    overflow: visible;
+}
+#ID781587b14b1f70265e303b380db4 {
+    position: absolute;
+    width: 777px;
+    height: 259px;
+    left: 990px;
+    top: 1015px;
+    overflow: visible;
+}
+#ID5bd6f54dce7c144b954d5b9f4e81 {
+    position: absolute;
+    width: 777px;
+    height: 259px;
+    left: 168px;
+    top: 1294px;
+    overflow: visible;
+}
+#f57015de966377b7632990e383cf03 {
+    position: absolute;
+    width: 777px;
+    height: 259px;
+    left: 990px;
+    top: 1294px;
+    overflow: visible;
+}
+#Favorite_games_from_2018 {
+    position: absolute;
+    left: 379px;
+    top: 1122px;
+    overflow: visible;
+    width: 548px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#_Favorite_games_from_2019 {
+    position: absolute;
+    left: 1191px;
+    top: 1122px;
+    overflow: visible;
+    width: 571px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#Favorite_PS4_Games {
+    position: absolute;
+    left: 389px;
+    top: 1390px;
+    overflow: visible;
+    width: 411px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#Favorite_PC_Games {
+    position: absolute;
+    left: 1212px;
+    top: 1390px;
+    overflow: visible;
+    width: 389px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#Return {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___1.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
